@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/styles/login_page.css">
+</head>
+
+<body>
+    <div class="login-container">
+        <h2>Đăng Nhập</h2>
+        <form action="login" id="form">
+            <input type="email" id="email" name="email" placeholder="Nhập email" required>
+            <input type="password" id="password" name="password" placeholder="Nhập mật khẩu" required>
+            <button type="submit">Đăng Nhập</button>
+        </form>
+    </div>
+
+    <div>
+        <a id="link" href="./homepage.html"></a>
+    </div>
+
+    <!-- script -->
+    <script src="./src/utils/accountpage-import-fake-data.js"></script>
+    <script src="./src/scripts/login.js"></script>
+</body>
+</html>
